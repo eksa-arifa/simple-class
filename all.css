@@ -1,0 +1,175 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* Background */
+.bg-dark{
+  background: #000;
+}
+.bg-light{
+  background: #fff;
+}
+.bg-red{
+  background: red;
+}
+.bg-blue{
+  background: blue;
+}
+.bg-yellow{
+  background: yellow;
+}
+.bg-purple{
+  background: purple;
+}
+.bg-crimson{
+  background: crimson;
+}
+.bg-cyan{
+  background: cyan;
+}
+
+/* Font Color */
+.color-light{
+  color: #fff;
+}
+.color-dark{
+  color: #000;
+}
+
+/* Position */
+.pos-fixed{
+  position: fixed;
+}
+.pos-absolute{
+  position: absolute;
+}
+.pos-relative{
+  position: relative;
+}
+
+/* Margin */
+.m-5{
+  margin: 5px;
+}
+.m-10{
+  margin: 10px;
+}
+.m-15{
+  margin: 15px;
+}
+.m-20{
+  margin: 20px;
+}
+
+/* Margin top */
+.mt-5{
+  margin-top: 5px;
+}
+.mt-10{
+  margin-top: 10px;
+}
+.mt-15{
+  margin-top: 15px;
+}
+.mt-20{
+  margin-top: 20px;
+}
+
+/* Margin left */
+.ml-5{
+  margin-left: 5px;
+}
+.ml-10{
+  margin-left: 10px;
+}
+.ml-15{
+  margin-left: 15px;
+}
+.ml-20{
+  margin-left: 20px;
+}
+
+/* Margin right */
+.mr-5{
+  margin-right: 5px;
+}
+.mr-10{
+  margin-right: 10px;
+}
+.mr-15{
+  margin-right: 15px;
+}
+.mr-20{
+  margin-right: 20px;
+}
+
+/* Margin bottom */
+.mb-5{
+  margin-bottom: 5px;
+}
+.mb-10{
+  margin-bottom: 10px;
+}
+.mb-15{
+  margin-bottom: 15px;
+}
+.mb-20{
+  margin-bottom: 20px;
+}
+
+/* Display */
+.flex{
+  display: flex;
+}
+.block{
+  display: block;
+}
+.inline{
+  display: inline;
+}
+.inline-block{
+  display: inline-block;
+}
+
+/* Display position */
+.justify-content-center{
+  justify-content: center;
+}
+.justify-content-space-between{
+  justify-content: space-between;
+}
+.align-items-center{
+  align-items: center;
+}
+
+/* Text position */
+.text-center{
+  text-align: center;
+}
+.text-left{
+  text-align: left;
+}
+.text-right{
+  text-align: right;
+}
+
+/* For position */
+.top-0{
+  top: 0;
+}
+.bottom-0{
+  bottom: 0;
+}
+.left-0{
+  left: 0;
+}
+.right-0{
+  right: 0;
+}
+
+
+/* Pack website responsive */
+
+/* Dikerjakan besok */
