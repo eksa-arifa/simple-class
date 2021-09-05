@@ -15,3 +15,7 @@ function copytextarea(){
   
   alert('Berhasil di copy,sekarang pastekan pada code editor anda');
 }
+
+function todocs(){
+  Location.href('dokumentasi.html');
+}
