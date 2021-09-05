@@ -17,5 +17,5 @@ function copytextarea(){
 }
 
 function todocs(){
-  Location.href('dokumentasi.html');
+  location.href = "dokumentasi.html";
 }
