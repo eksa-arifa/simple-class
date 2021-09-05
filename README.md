@@ -1,4 +1,4 @@
-# street-library
+# simple class
 
 The private library CSS for me
 
