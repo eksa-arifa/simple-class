@@ -1,0 +1,400 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <link rel="stylesheet" href="style.css" />
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+  <title>tekCSS | library</title>
+</head>
+<body>
+  <nav class="navbar">
+    <div class="padding">
+      <div class="logo">SimpleClass.</div>
+      <ul class="navigator">
+        <li><a href="index.html">Beranda</a></li>
+        <li><a href="#" id="active">Dokumentasi</a></li>
+        <li><a href="template.html">Template</a></li>
+        <li><a href="https://saweria.co/eksadeveloper">Donasi</a></li>
+      </ul>
+      <i class="fa fa-bars"></i>
+    </div>
+  </nav>
+  <div class="dokumentasi">
+    <div class="permulaan">
+      <div class="title">Dokumentasi</div>
+      <div class="keterangan">Starter Template</div>
+      <textarea id="textarea"><!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  
+  <!-- Simple Class CSS -->
+  <link rel="stylesheet" href="https://eksaarifa.github.io/street-library/all.css" />
+  
+  <title>Document</title>
+</head>
+<body>
+  
+</body>
+</html></textarea>
+       <button onclick="copytextarea()">COPY</button>
+    </div>
+    <div class="inti">
+      <div class="penjelasan">
+        Setelah anda memulai dengan starter template,ada baiknya anda membaca dokumentasi ini terlebih dahulu,agar anda dapat menggunakan library ini semaksimal mungkin,dan gunakanlah dengan bijak.Jika anda merasa ini membantu anda dapat berdonasi untuk membantu website ini agar lebih berkembang.
+      </div>
+      <div class="penjelasan-content">
+        <div class="judul">Background color</div>
+        <div class="paragraf">
+          ada berbagai macam background color yang bisa kamu gunakan.
+        </div>
+        <table border="1">
+          <tr>
+            <td>bg-dark</td>
+            <td>Warna gelap/hitam</td>
+          </tr>
+          <tr>
+            <td>bg-light</td>
+            <td>Warna cerah/putih</td>
+          </tr>
+          <tr>
+            <td>bg-red</td>
+            <td>Warna merah</td>
+          </tr>
+          <tr>
+            <td>bg-blue</td>
+            <td>warna biru</td>
+          </tr>
+          <tr>
+            <td>bg-yellow</td>
+            <td>Warna kuning</td>
+          </tr>
+          <tr>
+            <td>bg-purple</td>
+            <td>Warna ungu</td>
+          </tr>
+          <tr>
+            <td>bg-crimson</td>
+            <td>Warna merah tua</td>
+          </tr>
+          <tr>
+            <td>bg-cyan</td>
+            <td>Cyan</td>
+          </tr>
+        </table>
+      </div>
+      <div class="penjelasan-content">
+        <div class="judul">Font color</div>
+        <div class="paragraf">Sementara untuk font color hanya ada dua macam</div>
+        <table border="1">
+          <tr>
+            <td>color-light</td>
+            <td>warna putih</td>
+          </tr>
+          <tr>
+            <td>color-dark</td>
+            <td>warna hitam</td>
+          </tr>
+        </table>
+      </div>
+      <div class="penjelasan-content">
+        <div class="judul">Position</div>
+        <div class="paragraf">ada 3 position yang bisa kamu gunakan disini</div>
+        <table border="1">
+          <tr>
+            <td>pos-fixed</td>
+            <td>position:fixed;</td>
+          </tr>
+          <tr>
+            <td>pos-absolute</td>
+            <td>position:absolute;</td>
+          </tr>
+          <tr>
+            <td>pos-relative</td>
+            <td>position:relative;</td>
+          </tr>
+        </table>
+      </div>
+      <div class="penjelasan-content">
+        <div class="judul">Margin</div>
+        <div class="paragraf">Untuk margin,jika kurang,anda bisa menambahkannya sendiri di file css anda.</div>
+        <table border="1">
+          <tr>
+            <td>m-5</td>
+            <td>margin 5px</td>
+          </tr>
+          <tr>
+            <td>m-10</td>
+            <td>margin 10px</td>
+          </tr>
+          <tr>
+            <td>m-15</td>
+            <td>margin 15px</td>
+          </tr>
+          <tr>
+            <td>m-20</td>
+            <td>margin 20px</td>
+          </tr>
+          <tr>
+            <td>mt-5</td>
+            <td>margin top 5px</td>
+          </tr>
+          <tr>
+            <td>mt-10</td>
+            <td>margin top 10px</td>
+          </tr>
+          <tr>
+            <td>mt-15</td>
+            <td>margin top 15px</td>
+          </tr>
+          <tr>
+            <td>mt-20</td>
+            <td>margin top 20px</td>
+          </tr>
+          <tr>
+            <td>ml-5</td>
+            <td>margin left 5px</td>
+          </tr>
+          <tr>
+            <td>ml-10</td>
+            <td>margin left 10px</td>
+          </tr>
+          <tr>
+            <td>ml-15</td>
+            <td>margin left 15px</td>
+          </tr>
+          <tr>
+            <td>ml-20</td>
+            <td>margin left 20px</td>
+          </tr>
+          <tr>
+            <td>mr-5</td>
+            <td>margin right 5px</td>
+          </tr>
+          <tr>
+            <td>mr-10</td>
+            <td>margin right 10px</td>
+          </tr>
+          <tr>
+            <td>mr-15</td>
+            <td>margin right 15px</td>
+          </tr>
+          <tr>
+            <td>mr-20</td>
+            <td>margin right 20px</td>
+          </tr>
+          <tr>
+            <td>mb-5</td>
+            <td>margin bottom 5px</td>
+          </tr>
+          <tr>
+            <td>mb-10</td>
+            <td>margin bottom 10px</td>
+          </tr>
+          <tr>
+            <td>mb-15</td>
+            <td>margin bottom 15px</td>
+          </tr>
+          <tr>
+            <td>mb-20</td>
+            <td>margin bottom 20px</td>
+          </tr>
+        </table>
+      </div>
+      <div class="penjelasan-content">
+        <div class="judul">Display</div>
+        <div class="paragraf">Sementara hanya ada 4 display disini,anda bisa menggunakan file css anda untuk mengkostumisasi display yg anda inginkan jika tidak ada disini</div>
+        <table border="1">
+          <tr>
+            <td>flex</td>
+            <td>flexbox</td>
+          </tr>
+          <tr>
+            <td>block</td>
+            <td>block</td>
+          </tr>
+          <tr>
+            <td>inline</td>
+            <td>inline</td>
+          </tr>
+          <tr>
+            <td>inline-block</td>
+            <td>inline-block</td>
+          </tr>
+        </table>
+      </div>
+      <div class="penjelasan-content">
+        <div class="judul">Flexbox</div>
+        <div class="paragraf">ini untuk memposisikan item pada flexbox,kalian bisa kostumisasi di css apabila yg ditampilkan disini tidak ada yg anda inginkan.</div>
+        <table border="1">
+          <tr>
+            <td>justify-content-center</td>
+            <td>ke tengah</td>
+          </tr>
+          <tr>
+            <td>justify-content-space-between</td>
+            <td>jarak antar item pada flexbox</td>
+          </tr>
+          <tr>
+            <td>align-items-center</td>
+            <td>ke tengah</td>
+          </tr>
+          <tr>
+            <td>flex-wrap</td>
+            <td>memberi breake pada flexbox</td>
+          </tr>
+        </table>
+      </div>
+      <div class="penjelasan-content">
+        <div class="judul">Text align</div>
+        <div class="paragraf">memposisikan teks</div>
+        <table border="1">
+          <tr>
+            <td>text-center</td>
+            <td>ke tengah</td>
+          </tr>
+          <tr>
+            <td>text-left</td>
+            <td>(default)ke kiri</td>
+          </tr>
+          <tr>
+            <td>text-right</td>
+            <td>ke kanan</td>
+          </tr>
+        </table>
+      </div>
+      <div class="penjelasan-content">
+        <div class="judul">Position property</div>
+        <div class="paragraf">kembali lagi jika kurang dan tidak seperti yg diinginkan bisa ditambahkan sendiri.</div>
+        <table border="1">
+          <tr>
+            <td>top-0</td>
+            <td>top: 0px;</td>
+          </tr>
+          <tr>
+            <td>bottom-0</td>
+            <td>bottom: 0px;</td>
+          </tr>
+          <tr>
+            <td>left-0</td>
+            <td>left: 0px;</td>
+          </tr>
+          <tr>
+            <td>right-0</td>
+            <td>right: 0px;</td>
+          </tr>
+        </table>
+      </div>
+      <div class="penjelasan-content">
+        <div class="judul">Text decoration</div>
+        <div class="paragraf">mnambahkan property pada teks,kembali lagi jika kurang bisa dikostumisasi sendiri.</div>
+        <table border="1">
+          <tr>
+            <td>decoration-none</td>
+            <td>tanpa dekorasi</td>
+          </tr>
+          <tr>
+            <td>decoration-underline</td>
+            <td>memberi garis bawah pada teks</td>
+          </tr>
+        </table>
+      </div>
+      <div class="penjelasan-content">
+        <div class="judul">Padding</div>
+        <div class="paragraf">Bisa ditambahkan sendiri di css apabila kurang.</div>
+        <table border="1">
+          <tr>
+            <td>p-5</td>
+            <td>padding 5px</td>
+          </tr>
+          <tr>
+            <td>p-10</td>
+            <td>padding 10px</td>
+          </tr>
+          <tr>
+            <td>p-15</td>
+            <td>padding 15px</td>
+          </tr>
+          <tr>
+            <td>p-20</td>
+            <td>padding 20px</td>
+          </tr>
+          <tr>
+            <td>pt-5</td>
+            <td>padding top 5px</td>
+          </tr>
+          <tr>
+            <td>pt-10</td>
+            <td>padding top 10px</td>
+          </tr>
+          <tr>
+            <td>pt-15</td>
+            <td>padding top 15px</td>
+          </tr>
+          <tr>
+            <td>pt-20</td>
+            <td>padding top 20px</td>
+          </tr>
+          <tr>
+            <td>pb-5</td>
+            <td>padding bottom 5px</td>
+          </tr>
+          <tr>
+            <td>pb-10</td>
+            <td>padding bottom 10px</td>
+          </tr>
+          <tr>
+            <td>pb-15</td>
+            <td>padding bottom 15px</td>
+          </tr>
+          <tr>
+            <td>pb-20</td>
+            <td>padding bottom 20px</td>
+          </tr>
+          <tr>
+            <td>pl-5</td>
+            <td>padding left 5px</td>
+          </tr>
+          <tr>
+            <td>pl-10</td>
+            <td>padding left 10px</td>
+          </tr>
+          <tr>
+            <td>pl-15</td>
+            <td>padding left 15px</td>
+          </tr>
+          <tr>
+            <td>pl-20</td>
+            <td>padding left 20px</td>
+          </tr>
+          <tr>
+            <td>pr-5</td>
+            <td>padding right 5px</td>
+          </tr>
+          <tr>
+            <td>pr-10</td>
+            <td>padding right 10px</td>
+          </tr>
+          <tr>
+            <td>pr-15</td>
+            <td>padding right 15px</td>
+          </tr>
+          <tr>
+            <td>pr-20</td>
+            <td>padding right 20px</td>
+          </tr>
+        </table>
+      </div>
+      <div class="akhir">Oke hanya ini saja untuk saat ini,masih akan terus dikembangkan.</div>
+    </div>
+  </div>
+  <footer>
+    2021 Created with <i class="fa fa-heart"></i> EksaDev
+  </footer>
+  <script src="script.js" type="text/javascript" charset="utf-8"></script>
+</body>
+</html>
