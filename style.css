@@ -176,7 +176,7 @@ footer i{
     background: #000;
     max-height: 0;
     transition: max-height 0.5s;
-    overflow: hidden;
+    overflow-y: auto;
   }
   .navbar .padding .navigator.active{
     max-height: 150px;
